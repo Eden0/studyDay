@@ -1,11 +1,14 @@
-import Vue from 'vue'
-import Vuex from 'vuex'
+import Vue from "vue";
+import Vuex from "vuex";
 
 Vue.use(Vuex);
 const sotre = new Vuex.Store({
   state: {
-    msg: 'cc'
-  }
-})
+    msg: ""
+  },
+  getters: {},
+  mutations: {},
+  actions: {}
+});
 
 export default sotre;
